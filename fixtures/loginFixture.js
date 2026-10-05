@@ -12,6 +12,7 @@ export const test = base.extend({
     await expect(page).toHaveURL(/inventory\.html/);
 
     await use(page);
+    
   }
 });
 
